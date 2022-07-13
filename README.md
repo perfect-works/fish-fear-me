@@ -1,2 +1,2 @@
 # fish-fear-me 
-Just a personal website lol
+Just a personal website lol.
