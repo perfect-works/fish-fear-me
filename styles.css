@@ -9,13 +9,12 @@ header {
     text-align: center;
 }
 h1 {
-    font-family: Arial;
+    font-family:  Helvetica;
     font-size: 2em;
-    color: white;
 }
 h2 {
     font-family: Arial;
-    color: white;
+    color: #bb2528;
 }
 hr {
     margin: 1em auto;
@@ -26,10 +25,20 @@ li {
     margin-bottom: 1em;
 }
 a {
-    color: #084057;
+    /* color: #084057; */
+    color: #165b33;
+    font-family: Helvetica;
+    font-weight: bold;
 }
 img {
     vertical-align: middle;
     text-align: center;
     max-width: 100%;
+}
+festive {
+    color: #165b33;
+    animation: blink 1s steps(1) infinite;
+}
+@keyframes blink{
+    50% { color: #bb2528 }
 }
