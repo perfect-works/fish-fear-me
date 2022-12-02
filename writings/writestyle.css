@@ -1,20 +1,23 @@
 body {
     color: #d8c096;
-    background: url("images/bg.jpg");
+    background: url("../images/bg.jpg");
     background-size: 800px;
     margin: 0 auto;
     display: flow-root;
+    text-align: center;
 }
 header {
     text-align: center;
 }
 h1 {
+    text-align: center;
     font-family:  Helvetica;
-    font-size: 2em;
+    font-size: 2.3em;
 }
 h2 { 
     font-family: Arial;
-    color: #bb2528;
+    font-size: 1.5em;
+    color: #165b33;
 }
 hr {
     margin: 1em auto;
@@ -23,6 +26,12 @@ hr {
 li {
     margin-top: 0;
     margin-bottom: 1em;
+}
+p {
+    font-size: 1.1em;
+    max-width: 800px;
+    text-align: left;
+    margin: auto;
 }
 a {
     /* color: #084057; */
