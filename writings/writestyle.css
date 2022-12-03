@@ -14,14 +14,29 @@ h1 {
     font-family:  Helvetica;
     font-size: 2.3em;
 }
+figcaption {
+    color:aqua
+}
 h2 { 
     font-family: Arial;
     font-size: 1.5em;
     color: #165b33;
 }
+h3 { 
+    font-family: Arial;
+    font-size: 1.5em;
+    color: #bb2528;
+}
 hr {
     margin: 1em auto;
     border-top: 2px white solid;
+}
+video {
+    display: block;
+    margin: 0 auto;
+}
+aside {
+    float: left;
 }
 li {
     margin-top: 0;
@@ -29,13 +44,11 @@ li {
 }
 p {
     font-size: 1.1em;
-    max-width: 800px;
     text-align: left;
-    margin: auto;
 }
 a {
     /* color: #084057; */
-    color: #165b33;
+    color: #d8c096;
     font-family: Helvetica;
     font-weight: bold;
 }
