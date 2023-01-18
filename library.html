@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css">
+
+
+    <title>Humble Abode</title>
+    <link rel="icon" type="image/png" href="images/heh.png">
+    
+    <script src="https://unpkg.com/read-excel-file@4.x/bundle/read-excel-file.min.js"></script>
+    </head>
+
+    <body>
+
+        <input type="file" id="input">
+        <table id="tbl-data"></table>
+
+        <script>
+            var input = document.getElementById('input');
+            input.addEventListener('change', function() {
+                readXlsxFile(input.files[0]).then(function(data) {
+                    console.log(data);
+                });
+            });
+        </script>
+
+    </body>
+
+</html>
